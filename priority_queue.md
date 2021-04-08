@@ -47,3 +47,11 @@ pq.push() - used to put in elements in a heap . eg:
 ### empty()
 
 To check if a priority is empty or not
+
+### priority queue of pair
+
+```
+  //creating a min heap of pair. The first part of pair will be frequency
+  // In this the priority_queue will be sorted according to the first part of the pair
+  priority_queue<pair<int, int>,vector<pair<int, int>>, greater<pair<int, int>>> pq;
+```
