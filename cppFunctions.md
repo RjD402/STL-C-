@@ -48,6 +48,19 @@ Finds the element in the given range of numbers. Returns an iterator to the firs
 Element 30 found at position : 2 (counting from zero)
 ```
 
+### tolower()
+converts a character to lowercase 
+```
+    char a = 'a';
+    char A = 'A';
+    
+    char temp = tolower(a);
+    char temp1 = tolower(A);
+    
+    cout<<temp<<endl;
+    cout<<temp1<<endl;
+```
+
 ### stringstream
 
 
@@ -121,4 +134,25 @@ Can be used to erase an element at an iterator position as well as delete elemen
     
     OUTPUT
     4 5
+```
+
+#### is_sorted()
+
+```
+	//array or vector with equal values is also considered sorted
+   vector<int> temp{5,5,5};
+   vector<int> temp1{1,2,3,4,5,6};
+   vector<int> temp2{3,2,1};
+   int arr[] = {1,2,3};
+   
+   cout<<is_sorted(arr, arr+3)<<endl;
+   cout<<is_sorted(temp.begin(), temp.end())<<endl;
+   cout<<is_sorted(temp1.begin(), temp1.end())<<endl;
+   cout<<is_sorted(temp2.begin(), temp2.end())<<endl;
+
+	OUTPUT
+	1
+	1
+	1
+	0
 ```
