@@ -64,6 +64,13 @@ converts a character to lowercase
 ### stringstream
 
 
+### __builtin_popcount()
+
+Built in cpp compiler function used to count the number of set bits in a integer
+```
+ cout<<__builtin_popcount(x)<<endl;
+```
+
 
 ### vector
 
