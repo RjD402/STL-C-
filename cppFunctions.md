@@ -163,3 +163,6 @@ Can be used to erase an element at an iterator position as well as delete elemen
 	1
 	0
 ```
+
+#### stoi
+[stoi](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
