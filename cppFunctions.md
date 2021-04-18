@@ -63,6 +63,8 @@ converts a character to lowercase
 
 ### stringstream
 
+### lower_bound()
+
 
 ### __builtin_popcount()
 
