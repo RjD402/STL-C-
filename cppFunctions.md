@@ -29,6 +29,12 @@ This function takes two values pos and len as an argument and returns a newly co
     String is : cat
 ```
 
+### to_string()
+
+used to convert any number (integer, double, long) to a string
+
+
+
 ### find()
 Finds the element in the given range of numbers. Returns an iterator to the first element in the range [first,last) that compares equal to val. If no such element is found, the function returns last.
 
@@ -167,4 +173,6 @@ Can be used to erase an element at an iterator position as well as delete elemen
 ```
 
 #### stoi
+stoi is used to convert string to integer
 [stoi](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
+stol and stoll are also used to convert long and long long respectively to string
